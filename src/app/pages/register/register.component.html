@@ -1,0 +1,47 @@
+<!-- component -->
+<div class="bg-gray-100 flex justify-center items-center h-screen">
+    <!-- Izquierda: Formulario de Registro -->
+    <div class="lg:p-36 md:p-52 sm:20 p-8 w-full lg:w-1/2">
+        <h1 class="text-2xl font-semibold mb-4">Registro</h1>
+        <form action="#" method="POST">
+            <!-- Campo de Nombre -->
+            <div class="mb-4">
+                <label for="first_name" class="block text-gray-600">Nombre</label>
+                <input type="text" id="first_name" name="first_name" class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-primary-500" autocomplete="off">
+            </div>
+            <!-- Campo de Apellido -->
+            <div class="mb-4">
+                <label for="last_name" class="block text-gray-600">Apellido</label>
+                <input type="text" id="last_name" name="last_name" class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-primary-500" autocomplete="off">
+            </div>
+            <!-- Campo de Correo Electrónico -->
+            <div class="mb-4">
+                <label for="email" class="block text-gray-600">Correo Electrónico</label>
+                <input type="email" id="email" name="email" class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-primary-500" autocomplete="off">
+            </div>
+            <!-- Campo de Teléfono -->
+            <div class="mb-4">
+                <label for="phone" class="block text-gray-600">Teléfono</label>
+                <input type="tel" id="phone" name="phone" class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-primary-500" autocomplete="off">
+            </div>
+            <!-- Selector de Tipo de Usuario -->
+            <div class="mb-4">
+                <label for="user_type" class="block text-gray-600">Tipo de Usuario</label>
+                <select id="user_type" name="user_type" class="w-full border border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:border-primary-500">
+                    <option value="user">Usuario</option>
+                    <option value="admin">Administrador</option>
+                </select>
+            </div>
+            <!-- Botón de Registro -->
+            <button type="submit" class="bg-primary-500 hover:bg-primary-600 text-white font-semibold rounded-md py-2 px-4 w-full">Registrarse</button>
+        </form>
+        <!-- Enlace de Iniciar Sesión -->
+        <div class="mt-6 text-primary-500 text-center">
+            <a href="#" class="hover:underline">Iniciar Sesión Aquí</a>
+        </div>
+    </div>
+    <!-- Derecha: Imagen -->
+    <div class="w-1/2 h-screen hidden lg:block">
+        <img src="assets/images/logo/logo.png" alt="Logo">
+    </div>
+</div>
